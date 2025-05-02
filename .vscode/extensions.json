@@ -1,0 +1,16 @@
+{
+    "recommendations": [
+      "aaron-bond.better-comments",
+      "bradlc.vscode-tailwindcss",
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode",
+      "htmlhint.vscode-htmlhint",
+      "ms-vsliveshare.vsliveshare",
+      "pkief.material-icon-theme",
+      "streetsidesoftware.code-spell-checker",
+      "tyriar.sort-lines",
+      "usernamehw.errorlens",
+      "vivaxy.vscode-conventional-commits",
+      "usernamehw.errorlens"
+    ]
+  }

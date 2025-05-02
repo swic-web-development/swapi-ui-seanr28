@@ -1,0 +1,36 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "editor.autoClosingBrackets": "beforeWhitespace",
+  "editor.autoClosingComments": "beforeWhitespace",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.linkedEditing": true,
+  "editor.wordWrap": "wordWrapColumn",
+
+  "files.autoSave": "onFocusChange",
+  "html.autoClosingTags": true,
+
+  "css.validate": false,
+
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+  ],
+
+  "[javascript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "addMissingImports": "explicit",
+      "source.organizeImports": "explicit"
+    }
+  },
+
+  "[json]": {
+    "editor.formatOnSave": true
+  },
+
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
