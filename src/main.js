@@ -2,7 +2,7 @@ import Button from "./components/button.js";
 import Input from "./components/input.js";
 import Label from "./components/label.js";
 import TextArea from "./components/textarea.js";
-
+import "./styles.css";
 const app = document.getElementById("app");
 
 const container = document.createElement("div");
@@ -29,7 +29,7 @@ async function fetchData() {
 
     document.getElementById("results").innerHTML =
       data.result.length
-        ? `<div class="border border-gray-700 p-4 rounded bg-gray-800 text-white">
+        ? `<div class="border border-gray-700 p-4 rounded text-white">
              <h2 class="text-2xl font-bold">${data.result[0].properties.name}</h2>
              <p class="text-lg">Height: ${data.result[0].properties.height} cm</p>
              <p class="text-lg">Mass: ${data.result[0].properties.mass} kg</p>
